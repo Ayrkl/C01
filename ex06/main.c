@@ -5,9 +5,9 @@ int ft_strlen(char *str);
 int main(void)
 {
     char *metin = "Merhaba!";
-    int uzunluk = ft_strlen(metin);
+    int size = ft_strlen(metin);
 
-    printf("Uzunluk: %d\n", uzunluk); // Beklenen çıktı: 8
+    printf("Uzunluk: %d\n", size); // Beklenen çıktı: 8
 
     return 0;
 }
